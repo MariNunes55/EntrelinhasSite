@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Página Principal</title>
+    <link href="arquivo2.css" rel="stylesheet" type="text/css">
+    <script src="cores.js" defer></script>
+</head>
+<body>
+    <div class="Controles" id="divcor">
+        <h4>Cores com Javascript</h4>
+
+        <div class="Controles_vermelho">
+            <label for="Ired">Vermelho</label>
+            <input type="range" id="red" min="0" max="225" onchange="SetColorRed()">
+            <input type="text" id="tred" name="tred" readonly size="10">
+        </div>
+
+        <div class="Controles_verde">
+            <label for="Igreen">Verde</label>
+            <input type="range" id="green" min="0" max="225" onchange="SetColorGreen()">
+            <input type="text" id="tgreen" name="tgreen" readonly size="10">
+        </div>
+
+        <div class="Controles_azul">
+            <label for="IBLUE">Azul</label>
+            <input type="range" id="blue" min="0" max="225" onchange="SetColorBlue()">
+            <input type="text" id="tblue" name="tblue" readonly size="10">
+        </div>
+
+        <div class="Controles_pickcolor">
+            <input type="color" id="ccolor" name="ccolor" onchange="SetColorPick()">
+            <input type="text" id="tpick" name="tpick" readonly size="10">
+        </div>
+
+        <div class="Controles_sistemacor">
+            <input type="radio" name="colors" id="rrgb">RGB
+            <input type="radio" name="colors" id="rhex">Hexa
+        </div>
+
+        <button type="button" id="bdefinecor" onclick="SetColorBackground()">Alterar Cor Fundo</button>
+    </div>
+   
+</body>
+</html>
+

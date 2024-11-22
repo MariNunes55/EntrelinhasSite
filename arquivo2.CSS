@@ -1,0 +1,78 @@
+﻿.Controles{
+    margin: 20px 60px 30px 100px;
+    padding: 3px;
+    display: flex;
+    font-size: 1.5em;
+    width: 60vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2%;
+    border-color: rgb(30, 30, 30);
+    border-width: 5px;
+}
+
+.Controles_vermelho, .Controles_verde, .Controles_azul, .Controles_pickcolor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+    padding: 5px;
+    gap: 5px;
+    border: solid;
+    border-color: rgb(30, 30, 30);
+    border-width: 1px;
+}
+
+.Controles_pickcolor{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 25px;
+    width: 233px;
+    border: solid;
+    border-radius: 2%;
+    border-width: 1px;
+}
+
+.Controles_sistemacor{
+    margin-bottom: 5px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+input#tred, input#tgreen, input#tblue, input#tpick{
+    text-align: center;
+}
+
+input#tred{
+    color: red;
+}
+
+input#tgreen{
+    color: green;
+}
+
+input#tblue{
+    color: blue;
+}
+
+input#red, input#green, input#blue{
+    appearance: none;
+    width: 16em;
+    height: 0.07em;
+    border-radius: 5px;
+}
+
+input#red{
+    background-color: rgb(255, 0, 0);
+}
+
+input#green{
+    background-color: rgb(0, 255, 0);
+}
+
+input#blue{
+    background-color: rgb(0, 0, 255);
+}

@@ -1,0 +1,155 @@
+﻿#logo{
+   width:50%
+ 
+}
+
+#logo2{
+   
+display: block; 
+margin: 0; 
+padding: 0; 
+width: 60%; 
+text-decoration:none;
+}
+
+
+
+#gato{
+
+width: 10%; 
+}
+linha{
+ font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: italic;
+  color:#48250E;
+  background-color:#FEDDC7;
+}
+
+no-underline{ 
+text-decoration:none; 
+}
+
+
+
+body{
+ background-color:white;
+   display: block;
+    margin: 60px
+
+}
+p3{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  color:#48250E;
+  text-align:center;
+}
+
+p2{
+  background-color:white;
+   color:#48250E;
+  text-align:center;
+}
+
+p{
+   background-color:white;
+   color:#48250E;
+   text-align:center;
+}
+
+nav{
+padding: 0px 100px; 
+border: none; 
+background-color: #4CAF50; 
+color: white;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+
+.texto{
+
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+background-color:#FEDDC7;
+}
+
+.fonte{
+
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: italic;
+  color:#48250E;
+  background-color:#FEDDC7;
+
+ 
+}
+
+
+.rodapé{
+
+background-color:#FEDDC7;
+color:#48250E;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
